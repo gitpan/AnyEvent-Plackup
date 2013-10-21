@@ -4,6 +4,7 @@ author:
   - 'motemen <motemen@gmail.com>'
 build_requires:
   ExtUtils::MakeMaker: 6.59
+  LWP::Simple: 0
   Test::More: 0
 configure_requires:
   CPAN::Meta: 0
@@ -29,7 +30,7 @@ no_index:
 provides:
   AnyEvent::Plackup:
     file: lib/AnyEvent/Plackup.pm
-    version: 0.01
+    version: 0.02
   AnyEvent::Plackup::Request:
     file: lib/AnyEvent/Plackup/Request.pm
 requires:
@@ -47,4 +48,4 @@ resources:
   bugtracker: https://github.com/motemen/perl5-AnyEvent-Plackup/issues
   homepage: https://github.com/motemen/perl5-AnyEvent-Plackup
   repository: git://github.com/motemen/perl5-AnyEvent-Plackup.git
-version: 0.01
+version: 0.02
